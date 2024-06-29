@@ -10,14 +10,14 @@ export default function ConsultaNumeros() {
   const [error, setError] = useState(null);
 
   const formRef = useRef(null);
-  const urlHome = process.env.REACT_APP_MENU_URL_HOME;
+  const urlHome = process.env.NEXT_PUBLIC_MENU_URL_HOME;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     const formData = new FormData(formRef.current);
 
-    const apiUrl = process.env.REACT_APP_API_URL;
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
     let cpf = formData.get('cpf');
 

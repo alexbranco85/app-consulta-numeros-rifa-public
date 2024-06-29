@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const Header = async () => {
 
-  const urlHome = process.env.REACT_APP_MENU_URL_HOME;
-  const urlLoja = process.env.REACT_APP_MENU_URL_LOJA;
-  const urlProdutos = process.env.REACT_APP_MENU_URL_PRODUTOS;
-  const urlContato = process.env.REACT_APP_MENU_URL_CONTATO;
+  const urlHome = process.env.NEXT_PUBLIC_MENU_URL_HOME;
+  const urlLoja = process.env.NEXT_PUBLIC_MENU_URL_LOJA;
+  const urlProdutos = process.env.NEXT_PUBLIC_MENU_URL_PRODUTOS;
+  const urlContato = process.env.NEXT_PUBLIC_MENU_URL_CONTATO;
 
   return (
     <>
