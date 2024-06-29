@@ -121,7 +121,7 @@ export default function ConsultaNumeros() {
             <div key={pedidoId} className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4 w-full max-w-4xl mb-4">
               {/* Restante do seu código permanece inalterado */}
               <div className="w-full max-w-4xl bg-white rounded-lg shadow-md p-5">
-                <h1 className="text-xl font-semibold mb-1 text-black">Sorteio Fusca da Confusão</h1>
+                <h1 className="text-xl font-semibold mb-1 text-black">Nome Sorteio</h1>
                 <div className="border-t border-gray-200 pt-4">
                   <p className="text-gray-600">
                     <b>{cliente.nome}</b>
@@ -145,10 +145,10 @@ export default function ConsultaNumeros() {
 
       <div className="flex flex-col md:flex-row mt-24">
         <div className="w-full md:w-1/2 h-60 md:h-auto bg-gray-200 flex flex-col items-center justify-center py-40 px-10 gap-8 bg-main-red">
-          <h1 className="text-center text-white text-xl font-bold leading-tight tracking-tight text-3xl md:text-5xl dark:text-white">Concorra ao<br />Fusca da Confusão</h1>
+          <h1 className="text-center text-white text-xl font-bold leading-tight tracking-tight text-3xl md:text-5xl dark:text-white">Compre mais números<br /> e aumente suas chances!</h1>
           <p><Link href={urlHome}><button className="bg-main-blue text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 rounded-lg px-5 py-2.5 text-center hover:bg-main-blue">Clique aqui</button></Link></p>
         </div>
-        <div className="w-full md:w-1/2 h-60 md:h-auto bg-cover bg-center" style={{ backgroundImage: "url('/fusca-porta-aberta.jpeg')" }}></div>
+        <div className="w-full md:w-1/2 h-60 md:h-auto bg-cover bg-center" style={{ backgroundImage: "url('/imagem-premio.jpg')" }}></div>
       </div>
 
     </>
