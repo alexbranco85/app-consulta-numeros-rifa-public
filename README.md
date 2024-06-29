@@ -17,7 +17,7 @@ Este projeto permite a consulta de números de rifa adquiridos por meio do CPF d
 3. Execute o projeto com `npm run dev`.
 
 ## Contato
-Se deseja ter acesso ao repositório privado, entre em contato comigo: [www.alexbranco.com.br](http://www.alexbranco.com.br)
+Se deseja ter acesso ao repositório privado, entre em contato comigo: [www.alexbranco.dev.br](http://www.alexbranco.dev.br)
 
 ## Imagens do Projeto
 ![Imagem do Projeto com busca](imagem-projeto-02.png)
