@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+input {
+  min-width: 400px;
+  border: 1px solid #bbbbbb;
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+
+.send_button {
+  padding: 5px 15px;
+  background-color: red;
+  color: #fff;
+  border-radius: 30px;
+}
